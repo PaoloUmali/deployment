@@ -1,0 +1,23 @@
+{
+    "name": "paoloumali/deployment",
+    "description": "laravel, git, deployment, L4",
+    "authors": [
+        {
+            "name": "Paolo Umali",
+            "email": "dev@paoloumali.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "PaoloUmali\\Deployment\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
